@@ -1,0 +1,224 @@
+@media only screen and (max-width: 10000px) {
+    body {
+        
+        background-color: #07325f;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+       
+        text-align: center;
+        display: flexbox;
+        box-shadow: 0px 3px 3px #05213e ;
+    }
+    header .logo{
+        width: 80px;
+        border-radius: 100px; /* Adjust the value to control the amount of rounding */
+      position: relative ;
+      border: px solid black;
+    }
+   
+    .go h1{
+        position: absolute;
+        top: 10px;
+        color: #d1dde2;
+        font-size: 23px;  
+        left: 29px;
+    }
+    
+    .go svg{
+        position: absolute;
+        top: 30px;
+        color: #d1dde2;
+        left: 06px;
+    }
+    .go2{
+        display: flex;
+    }
+    .go2 h2{
+        position: absolute;
+        top: 7px;
+        color: #d1dde2;
+        font-size: 23px;  
+        right: 29px;
+    }
+    .go2 svg{
+        position: absolute;
+        top: 30px;
+        color: #d1dde2;
+        right: 06px;
+    }
+    .go2{
+        display: flex;
+    }
+    .topic{
+        align-items: center;
+        text-align: center;
+    }
+    .topic h1{
+        color: #d1dde2 ;
+        font-size: 35px;
+        
+    }
+    .topic h2{
+        color: #d1dde2 ;
+        font-size: 25px;
+    }
+    .products {
+        display: flex;
+        height: 200vh;
+        justify-content: center;
+    }
+    
+    .card2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        height: 100px; /* Adjusted height to accommodate content */
+    }
+    
+    .card {
+        background-color: #b9b9b9;
+        padding: 10px;
+        box-shadow: 0 9px 10px #051e38;
+        text-align: center;
+       
+        transition: 0.5s;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .card {
+        display: grid;
+        grid-template-rows: auto 1fr auto auto; 
+        align-items: center;
+        justify-content: center;
+        
+        /*
+         Add this line to create three rows in each card */
+    }
+    
+    .card p {
+        text-align: right;
+        margin: 0;
+        padding: 0;
+        grid-row: 4; /* Position the <p> element in the third row (at the bottom) */
+    }
+ .card  .m{
+    position: relative;
+    right: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #4d8cd0;
+    
+ }
+ .card  .k{
+    position: relative;
+    right: 0px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #4d8cd0;
+    
+ }
+ .card .j{
+    height: 125px;
+
+ }
+ .card  .l{
+    position: relative;
+    right: 0px;
+    font-size: 27px;
+ }
+    
+    .card img {
+        width: 100%;
+        height: 110px;
+    
+    
+        transition: 0.3s;
+        /* Add margin to separate image and text */
+        border-radius: 10px;
+    }
+    
+    .card h1 {
+        grid-row:3 ;
+        margin-top: 5px;
+      
+        
+        /* Adjusted margin to separate image and title */
+    }
+ 
+    
+
+    .card:hover{
+        transform: scale(1.06);
+    }
+    .card .col1{
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .card .col3{
+        width: 150px;
+        height: 110px;
+        border-radius: 10px;
+    }
+    .pop-img{
+        position: fixed ;
+        top: 0;
+        left: 0;
+        background-color: rgba(52, 52, 52, 0.5);
+      
+        backdrop-filter: blur(10px); 
+        height: 100% ;
+        width: 100%;
+        z-index: 100;
+        display: none;
+       
+       
+        
+      }
+       .pop-img span{
+        position: absolute;
+        top: 0px ;
+        right: 10px;
+        font-size: 60px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0) ;
+        cursor: pointer;
+        z-index: 100;
+      
+      }
+       .pop-img img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+       
+        transform:translate(-50%,-50%) ;
+  
+        width: 100%;
+        object-fit: cover;
+        
+      }
+      .mahmo{
+     
+        color: #d1dde2 ;
+        position: absolute;
+        top: 224%;
+        font-size: 20px;
+        left: 100px;
+      }
+    
+      .mah{
+        position: absolute;
+        top: 390%;
+        font-size: 20px;
+        left: 145px;
+        color: #d1dde2 ;
+      }
+
+  
+      
+        
+}
